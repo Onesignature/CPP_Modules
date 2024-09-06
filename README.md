@@ -6,15 +6,15 @@ Welcome to my **42 CPP Modules** repository. This repository contains solutions 
 
 1. [Overview](#overview)
 2. [Modules](#modules)
-   - [CPP Module 00](#cpp-module00)
-   - [CPP Module 01](#cpp-module01)
-   - [CPP Module 02](#cpp-module02)
-   - [CPP Module 03](#cpp-module03)
-   - [CPP Module 04](#cpp-module04)
-   - [CPP Module 05](#cpp-module05)
-   - [CPP Module 06](#cpp-module06)
-   - [CPP Module 07](#cpp-module07)
-   - [CPP Module 08](#cpp-module08)
+   - [CPP Module 00](#cpp-module-00)
+   - [CPP Module 01](#cpp-module-01)
+   - [CPP Module 02](#cpp-module-02)
+   - [CPP Module 03](#cpp-module-03)
+   - [CPP Module 04](#cpp-module-04)
+   - [CPP Module 05](#cpp-module-05)
+   - [CPP Module 06](#cpp-module-06)
+   - [CPP Module 07](#cpp-module-07)
+   - [CPP Module 08](#cpp-module-08)
 3. [Getting Started](#getting-started)
 4. [Usage](#usage)
 5. [License](#license)
@@ -108,7 +108,7 @@ To get started with any module:
     ```
 2. Navigate to the specific module directory:
     ```bash
-    cd cpp-module-00
+    cd cpp-module00
     ```
 3. Compile and run the exercises:
     ```bash
