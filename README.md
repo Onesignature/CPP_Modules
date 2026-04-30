@@ -1,127 +1,39 @@
-# 42 CPP Modules
+# 42 C++ Modules
 
-Welcome to my **42 CPP Modules** repository. This repository contains solutions and implementations of various C++ modules as part of the 42 curriculum. The projects are designed to build a solid understanding of object-oriented programming (OOP) concepts using C++.
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Modules](#modules)
-   - [CPP Module 00](#cpp-module-00)
-   - [CPP Module 01](#cpp-module-01)
-   - [CPP Module 02](#cpp-module-02)
-   - [CPP Module 03](#cpp-module-03)
-   - [CPP Module 04](#cpp-module-04)
-   - [CPP Module 05](#cpp-module-05)
-   - [CPP Module 06](#cpp-module-06)
-   - [CPP Module 07](#cpp-module-07)
-   - [CPP Module 08](#cpp-module-08)
-3. [Getting Started](#getting-started)
-4. [Usage](#usage)
-5. [License](#license)
-
-## Overview
-
-This repository contains the exercises and projects from the 42 CPP module series, which aims to enhance understanding of advanced C++ concepts like:
-- Encapsulation, Inheritance, Polymorphism
-- Memory management (new/delete, smart pointers)
-- Templates, Iterators
-- Exceptions
-- Function pointers, functors
-- File handling, streams
-- C++ Standard Template Library (STL)
-
-Each module presents a new challenge or concept with a set of exercises to solve, ranging from basic object-oriented programming to more complex C++ features.
+Solutions to the 42 **CPP modules** (00–09), a series that walks through modern C++ from basic class design up to STL containers and templates.
 
 ## Modules
 
-### CPP Module 00
-**Topics Covered:**
-- Namespace, Classes, Member functions
-- C++ basic syntax, I/O, and file handling
+| Module | Topic |
+|---|---|
+| [`cpp-module00`](./cpp-module00) | Namespaces, classes, member functions, stdio, basic I/O |
+| [`cpp-module01`](./cpp-module01) | Memory allocation, references, pointers to members, switch |
+| [`cpp-module02`](./cpp-module02) | Ad-hoc polymorphism, operator overloading, orthodox canonical class form |
+| [`cpp-module03`](./cpp-module03) | Inheritance |
+| [`cpp-module04`](./cpp-module04) | Subtype polymorphism, abstract classes, interfaces |
+| [`cpp-module05`](./cpp-module05) | Repetition and exceptions |
+| [`cpp-module06`](./cpp-module06) | C++ casts (`static_cast`, `dynamic_cast`, `reinterpret_cast`, `const_cast`) |
+| [`cpp-module07`](./cpp-module07) | Templates |
+| [`cpp-module08`](./cpp-module08) | Templated containers, iterators, algorithms |
+| [`cpp-module09`](./cpp-module09) | STL containers in practice (Bitcoin Exchange, RPN, PmergeMe) |
 
-**Key Concepts:**
-- Encapsulation, class design, and memory management
+## Build & run
 
-### CPP Module 01
-**Topics Covered:**
-- Construction, destruction of objects
-- Resource Acquisition Is Initialization (RAII) concept
+Each module has its own subdirectories per exercise, each with its own `Makefile`:
 
-**Key Concepts:**
-- Constructors, Destructors, and copy mechanisms
+```bash
+cd cpp-module00/ex00
+make
+./<executable>
+```
 
-### CPP Module 02
-**Topics Covered:**
-- Polymorphism, Overloading, and function pointers
+Code is compiled with `-Wall -Wextra -Werror -std=c++98` per the 42 norm.
 
-**Key Concepts:**
-- Operator overloading, friend classes, function pointers
+## What you'll see across the modules
 
-### CPP Module 03
-**Topics Covered:**
-- Inheritance and abstract classes
-
-**Key Concepts:**
-- Virtual functions, abstract base classes, and pure virtual methods
-
-### CPP Module 04
-**Topics Covered:**
-- Subtyping, interfaces, and runtime polymorphism
-
-**Key Concepts:**
-- Dynamic binding and polymorphic behavior
-
-### CPP Module 05
-**Topics Covered:**
-- Exception handling and its practical use
-
-**Key Concepts:**
-- Try-catch blocks, exception objects, and error handling
-
-### CPP Module 06
-**Topics Covered:**
-- Type Casting, especially dynamic and static casting
-
-**Key Concepts:**
-- C++ style casting: `dynamic_cast`, `static_cast`, `reinterpret_cast`, and `const_cast`
-
-### CPP Module 07
-**Topics Covered:**
-- Templates and the STL
-
-**Key Concepts:**
-- Function templates, class templates, and common STL containers
-
-### CPP Module 08
-**Topics Covered:**
-- Advanced templates and meta-programming
-
-**Key Concepts:**
-- Template specialization, variadic templates, and template meta-programming
-
-## Getting Started
-
-To get started with any module:
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Onesignature/CPP_Modules.git
-    ```
-2. Navigate to the specific module directory:
-    ```bash
-    cd cpp-module00
-    ```
-3. Compile and run the exercises:
-    ```bash
-    make
-    ./your_executable
-    ```
-
-Each module contains a `Makefile` for building the project, and the necessary C++ files are structured in directories.
-
-## Usage
-
-Each module can be run separately, and the output can be tested against the provided exercises. Follow the instructions in each module directory to understand the requirements and the objectives for that module.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Encapsulation, the rule of three, and orthodox canonical form
+- Inheritance, virtual functions, abstract base classes
+- Operator overloading, function pointers, functors
+- Exception handling
+- Templates (function + class), template specialization
+- STL containers (`vector`, `list`, `map`, `stack`) and iterators
